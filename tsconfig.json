@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        //module: latest ES code
+        //noImplicitAny is true so it doesn't allow for type <any>
+        //NOTE, we are on ES9. 
+        "module" : "ESNext",
+        "noImplicitAny": true,
+        "strict": true,
+        "jsx" : "react-jsx",
+        "target" : "ES6",
+        "moduleResolution": "node"
+    }
+}
